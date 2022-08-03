@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import CardComponent from "../../components/ourteam/CardComponent";
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 
 const core = ({ setCurrPage }) => {
   useEffect(() => {
@@ -15,7 +15,7 @@ const core = ({ setCurrPage }) => {
       <hr style={{ width: "200px", margin: "auto" }} />
       <br />
 
-      <div className="text-center justify-content-center d-flex">
+      <div className="text-center justify-content-center d-flex py-3">
         <CardComponent
           name="Dr. L.N. Pattanaik"
           position="Faculty advisor"
@@ -24,12 +24,10 @@ const core = ({ setCurrPage }) => {
         />
       </div>
 
-
       <Container>
-
-        <Row className="py-5">
+        <Row className="">
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Vishal H. Shah"
                 position="Executive member"
@@ -39,7 +37,7 @@ const core = ({ setCurrPage }) => {
             </div>
           </Col>
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Dr. Priyank Kumar"
                 position="Executive member"
@@ -48,11 +46,11 @@ const core = ({ setCurrPage }) => {
               />
             </div>
           </Col>
-        </Row >
+        </Row>
 
-        <Row className="py-3">
+        <Row className="">
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Aditya Raj Choudhary"
                 position="President"
@@ -62,7 +60,7 @@ const core = ({ setCurrPage }) => {
             </div>
           </Col>
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Srijan Jha"
                 position="Joint President"
@@ -73,9 +71,9 @@ const core = ({ setCurrPage }) => {
           </Col>
         </Row>
 
-        <Row className="py-3">
+        <Row className="">
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Roshan Agarwal"
                 position="Vice President"
@@ -85,7 +83,7 @@ const core = ({ setCurrPage }) => {
             </div>
           </Col>
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Aniket Shandilya"
                 position="General Secretary"
@@ -96,9 +94,9 @@ const core = ({ setCurrPage }) => {
           </Col>
         </Row>
 
-        <Row className="py-3">
+        <Row className="">
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Dhiren Kumar"
                 position="Joint Secretary"
@@ -108,7 +106,7 @@ const core = ({ setCurrPage }) => {
             </div>
           </Col>
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Deependu Jha"
                 position="Treasurer"
@@ -119,9 +117,9 @@ const core = ({ setCurrPage }) => {
           </Col>
         </Row>
 
-        <Row className="py-3">
+        <Row className="">
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="T. Pranav Rushi"
                 position="Joint Treasurer"
@@ -130,15 +128,9 @@ const core = ({ setCurrPage }) => {
               />
             </div>
           </Col>
-
         </Row>
-
       </Container>
-
-
-
     </div>
-
   );
 };
 
