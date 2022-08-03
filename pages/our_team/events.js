@@ -14,7 +14,7 @@ const events = ({ setCurrPage }) => {
       <p style={{ color: " #0e918c", fontSize: "29px" }}>Events</p>
       <hr style={{ width: "200px", margin: "auto" }} />
       <br />
-      <div className="text-center justify-content-center d-flex py-2">
+      <div className="text-center justify-content-center d-flex py-3">
         <CardComponent
           name="Mayank Kumar"
           position="Director"
@@ -25,7 +25,7 @@ const events = ({ setCurrPage }) => {
       <Container>
         <Row className="">
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex py-2">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Harsh Sarve"
                 position="Chief Strategist"
@@ -35,7 +35,7 @@ const events = ({ setCurrPage }) => {
             </div>
           </Col>
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex py-2">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Moupriya Ghosh "
                 position="Strategist"
@@ -48,7 +48,7 @@ const events = ({ setCurrPage }) => {
 
         <Row className="">
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex py-2">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Prakhar Chauhan"
                 position="Strategist"
@@ -58,7 +58,7 @@ const events = ({ setCurrPage }) => {
             </div>
           </Col>
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex py-2">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Rohit Pande"
                 position="Strategist"
@@ -71,7 +71,7 @@ const events = ({ setCurrPage }) => {
 
         <Row className="">
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex py-2">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Shem Vishal"
                 position="Executive"
@@ -81,7 +81,7 @@ const events = ({ setCurrPage }) => {
             </div>
           </Col>
           <Col md={6}>
-            <div className="text-center justify-content-center d-flex py-2">
+            <div className="text-center justify-content-center d-flex py-3">
               <CardComponent
                 name="Debanshu Banerjee"
                 position="Executive"
