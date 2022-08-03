@@ -8,7 +8,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src="/mainPage/carousel/industry_4.jpg"
           alt="First slide"
-          style={{ height: "80vh", width: "100vw" }}
+          style={{ height: "85vh", width: "100vw" }}
         />
         <Carousel.Caption>
           <h1>INNOVATE, INCULCATE and INSPIRE</h1>
@@ -19,7 +19,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src="/mainPage/carousel/welding_engineer.jpg"
           alt="Second slide"
-          style={{ height: "80vh", width: "100vw" }}
+          style={{ height: "85vh", width: "100vw" }}
         />
 
         <Carousel.Caption>
@@ -35,7 +35,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src="/mainPage/carousel/future-work-digital-technology-economy.jpg"
           alt="Third slide"
-          style={{ height: "80vh", width: "100vw" }}
+          style={{ height: "85vh", width: "100vw" }}
         />
 
         <Carousel.Caption>
@@ -51,7 +51,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src="/mainPage/carousel/teamwork-img.jpg"
           alt="Fourth slide"
-          style={{ height: "80vh", width: "100vw" }}
+          style={{ height: "85vh", width: "100vw" }}
         />
 
         <Carousel.Caption>
@@ -63,7 +63,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src="/mainPage/carousel/steel-pipelines-cables-plant.jpg"
           alt="Fifth slide"
-          style={{ height: "80vh", width: "100vw" }}
+          style={{ height: "85vh", width: "100vw" }}
         />
 
         <Carousel.Caption>
