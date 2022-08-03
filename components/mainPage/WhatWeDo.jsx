@@ -141,8 +141,8 @@ const WhatWeDo = () => {
                     </p>
                   </div>
                 </div>
-                <div className="row ">
-                  <div className="col-md-2">
+                <div className="row my-4">
+                  <div className="col-md-2 my-2">
                     <Image
                       width="100px"
                       height="100px"
