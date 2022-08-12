@@ -9,7 +9,7 @@ const Sponsor = () => {
     >
       <h1>Our Research Sponsor</h1>
       <br />
-      <a href="https://www.solidworks.com/" target="_blank">
+      <a href="https://www.solidworks.com/" target="_blank" rel="noreferrer">
         <Image
           src="/mainPage/solidworks.png"
           height="224px"

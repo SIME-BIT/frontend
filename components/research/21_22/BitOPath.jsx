@@ -38,7 +38,7 @@ const BitOPath = () => {
       </p>
       <p className="my-2">
         Website link:{" "}
-        <a href="http://bitfoodpoint.xyz/" target="_blank">
+        <a href="http://bitfoodpoint.xyz/" target="_blank" rel="noreferrer">
           BIT-O-PATH
         </a>
       </p>

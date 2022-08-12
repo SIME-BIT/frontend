@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-const core = ({ setCurrPage }) => {
+const Core = ({ setCurrPage }) => {
   useEffect(() => {
     setCurrPage("ourTeam");
   }, []);
@@ -134,4 +134,4 @@ const core = ({ setCurrPage }) => {
   );
 };
 
-export default core;
+export default Core;
