@@ -10,12 +10,12 @@ const Contact = () => {
 
   const onSubmitBtnClick = async (e) => {
     e.preventDefault();
-    alert("you clicked on submit button");
     console.log(name);
     console.log(email);
     console.log(phone);
     console.log(subject);
     console.log(msg);
+    alert("you clicked on submit button");
   };
   return (
     <section className={`mb-4 ${styles.section}`}>

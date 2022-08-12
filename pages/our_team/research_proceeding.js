@@ -47,7 +47,7 @@ const research_proceeding = ({ setCurrPage }) => {
                 name="Ritika"
                 position="Chief Strategist"
                 img="/ourTeam/k20/ritika.jpeg"
-                linkedin="www.linkedin.com/in/itsritika11"
+                linkedin="https://www.linkedin.com/in/itsritika11"
               />
             </div>
           </Col>
@@ -91,7 +91,7 @@ const research_proceeding = ({ setCurrPage }) => {
                 name="Perumalla Satvik"
                 position="Executive"
                 img="/ourTeam/k21/perumalla_satvik.jpg"
-                linkedin="www.linkedin.com/in/perumalla-satvik-419047229"
+                linkedin="https://www.linkedin.com/in/perumalla-satvik-419047229"
               />
             </div>
           </Col>
