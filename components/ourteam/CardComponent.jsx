@@ -7,17 +7,17 @@ const CardComponent = ({name,position,linkedin,img}) => {
     <div
       className="row justify-content-center text-center"
       style={{
-        border: "2px solid black",
-        height: "350px",
+        border: "0.5px solid black",
+        height: "325px",
         width: "300px",
-        borderRadius: "10px",
+        borderRadius: "5px",
       }}
     >
       <div
         style={{
           height: "200px",
           width: "200px",
-          borderRadius: "20px",
+          borderRadius: "50%",
           overflow: "hidden",
           position: "relative",
           margin: "auto",
