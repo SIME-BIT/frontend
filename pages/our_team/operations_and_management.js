@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-const operations_and_management = ({ setCurrPage }) => {
+const Operations_and_management = ({ setCurrPage }) => {
   useEffect(() => {
     setCurrPage("ourTeam");
   }, []);
@@ -155,4 +155,4 @@ const operations_and_management = ({ setCurrPage }) => {
   );
 };
 
-export default operations_and_management;
+export default Operations_and_management;

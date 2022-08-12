@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-const industry_and_alumni_relations = ({ setCurrPage }) => {
+const Industry_and_alumni_relations = ({ setCurrPage }) => {
   useEffect(() => {
     setCurrPage("ourTeam");
   }, []);
@@ -91,4 +91,4 @@ const industry_and_alumni_relations = ({ setCurrPage }) => {
   );
 };
 
-export default industry_and_alumni_relations;
+export default Industry_and_alumni_relations;

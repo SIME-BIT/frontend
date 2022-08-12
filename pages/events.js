@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Events from "../components/Events";
 
-const events = ({ setCurrPage }) => {
+const MyEvents = ({ setCurrPage }) => {
   useEffect(() => {
     setCurrPage("events");
   }, []);
@@ -9,4 +9,4 @@ const events = ({ setCurrPage }) => {
   return <Events />;
 };
 
-export default events;
+export default MyEvents;

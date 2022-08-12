@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Contact from "../components/Contact";
 
-const contact = ({ setCurrPage }) => {
+const MyContact = ({ setCurrPage }) => {
   useEffect(() => {
     setCurrPage("contact");
   }, []);
@@ -13,4 +13,4 @@ const contact = ({ setCurrPage }) => {
   );
 };
 
-export default contact;
+export default MyContact;

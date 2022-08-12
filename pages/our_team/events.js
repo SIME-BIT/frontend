@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-const events = ({ setCurrPage }) => {
+const MyEvents = ({ setCurrPage }) => {
   useEffect(() => {
     setCurrPage("ourTeam");
   }, []);
@@ -96,4 +96,4 @@ const events = ({ setCurrPage }) => {
   );
 };
 
-export default events;
+export default MyEvents;

@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-const research_proceeding = ({ setCurrPage }) => {
+const Research_proceeding = ({ setCurrPage }) => {
   useEffect(() => {
     setCurrPage("ourTeam");
   }, []);
@@ -104,4 +104,4 @@ const research_proceeding = ({ setCurrPage }) => {
   );
 };
 
-export default research_proceeding;
+export default Research_proceeding;
